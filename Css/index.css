@@ -1,0 +1,94 @@
+/* index.css */
+
+body {
+    background-color: #F2DFCE;
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif;   
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    flex-direction: column;
+    padding: 20px;
+}
+
+.motivation {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 180px;
+    font-size: 2rem; 
+    text-align: center; 
+    flex-wrap: wrap; 
+}
+
+.middle-word {
+    font-weight: bold;
+    color: #f25a38; 
+    transition: opacity 1s ease; 
+    padding: 0 20px;
+}
+
+.hidden {
+    opacity: 0; 
+}
+
+.section1 button {
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #f26052;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section1 button:hover {
+    background-color: #f25a38;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+
+
+
+    .strich {
+        font-size: 13px;
+    }
+
+    .motivation {
+        font-size: 1.5rem; 
+    }
+
+    .text {
+        padding: 10px; 
+    }
+
+    .section1 button {
+        width: 150px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .motivation {
+        font-size: 1.5rem; 
+    }
+
+    .section1 button {
+        width: 125px;
+        font-size: 15px;
+    }
+}

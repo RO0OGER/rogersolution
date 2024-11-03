@@ -1,0 +1,33 @@
+.contactForm {
+    display: flex;
+    align-items: center;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    padding: 10px;
+    background-color: #794203;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff7418;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}

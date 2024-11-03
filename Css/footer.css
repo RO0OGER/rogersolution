@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+
+.footer-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content a p{
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-content p:hover{
+    cursor: pointer;
+
+}

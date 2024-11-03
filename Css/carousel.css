@@ -1,0 +1,30 @@
+/* carousel.css */
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+    display: flex;
+    transition: opacity 1s ease;
+    height: auto;
+}
+
+.carousel-inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.carousel-inner img.active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 1s ease;
+}

@@ -13,10 +13,10 @@ function showSlide(n) {
 function autoMoveCarousel() {
     currentSlide++;
     showSlide(currentSlide);
-    setTimeout(autoMoveCarousel, 3000); // Change slides every 3 seconds
+    setTimeout(autoMoveCarousel, 3000); 
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentSlide);
-    setTimeout(autoMoveCarousel, 3000); // Start the carousel
+    setTimeout(autoMoveCarousel, 3000); 
 });
